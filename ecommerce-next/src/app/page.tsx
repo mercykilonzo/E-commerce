@@ -30,6 +30,8 @@ export default function Home() {
               src="/images/Frame 611.svg"
               alt="Product"
               className="w-full h-40 object-contain"
+              width={200}
+              height={200}
             />
             <button
               className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -66,6 +68,8 @@ export default function Home() {
               src="/images/ak-900-01-500x500 1.svg"
               alt="Product"
               className="w-full h-40 object-contain"
+              width={200}
+              height={200}
             />
             <button
               className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -102,6 +106,8 @@ export default function Home() {
               src="/images/Frame 613.svg"
               alt="Product"
               className="w-full h-40 object-contain"
+              width={200}
+              height={200}
             />
             <button
               className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -137,6 +143,8 @@ export default function Home() {
               src="/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.svg"
               alt="Product"
               className="w-full h-40 object-contain"
+              width={200}
+              height={200}
             />
             <button
               className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -227,6 +235,8 @@ export default function Home() {
               src="/images/Frame 605.svg"
               alt="Product"
               className="mt-[-40px]"
+              width={200} 
+              height={200}
             />
             <div className="mt-5">
               <h4 className="font-bold">The north coat</h4>
@@ -255,6 +265,8 @@ export default function Home() {
               src="/images/Frame 606.svg"
               alt="Product"
               className="mt-[-40px]"
+              width={200} 
+              height={200}
             />
             <div className="mt-5">
               <h4 className="font-bold">Gucci duffle bag</h4>
@@ -283,6 +295,8 @@ export default function Home() {
               src="/images/gammaxx-l240-argb-1-500x500 1.svg"
               alt="Product"
               className="mt-[46px]"
+              width={200}
+              height={200}
 
             />
             <div className="mt-5">
@@ -312,6 +326,8 @@ export default function Home() {
               src="/images/Frame 612.svg"
               alt="Product"
               className="mt-[-40px]"
+              width={200}
+              height={200}
             />
             <div className="mt-5">
               <h4 className="font-bold">Small Bookself</h4>
@@ -368,7 +384,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <Image src="/images/Frame 604.svg" alt="Product" className="mt-[-40px]" />
+            <Image src="/images/Frame 604.svg" alt="Product" className="mt-[-40px]" width={200} height={200} />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -393,7 +409,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <Image src="/images/Frame 604 (1).svg" alt="Product" className="mt-[-40px]" />
+            <Image src="/images/Frame 604 (1).svg" alt="Product" className="mt-[-40px]" width={200} height={200} />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -417,7 +433,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <Image src="/images/Frame 604 (2).svg" alt="Product" className="mt-[-40px]" />
+            <Image src="/images/Frame 604 (2).svg" alt="Product" className="mt-[-40px]" width={200} height={200} />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -442,7 +458,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <Image src="/images/image.png" alt="Product" className="mt-[-40px]" width={200} />
+            <Image src="/images/image.png" alt="Product" className="mt-[-40px]" width={200} height={200} />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -474,6 +490,8 @@ export default function Home() {
             src="/images/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car 1.svg"
             alt="Product"
             className="w-full h-40 object-contain"
+            width={200}
+            height={200}
           />
           <button
             className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -502,6 +520,8 @@ export default function Home() {
             src="/images/Frame 608.svg"
             alt="Product"
             className="w-full h-40 object-contain"
+            width={200}   
+            height={200}
           />
           <button
             className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -531,6 +551,8 @@ export default function Home() {
             src="/images/Frame 608 (1).svg"
             alt="Product"
             className="w-full h-40 object-contain"
+            width={200}
+            height={200}
           />
           <button
             className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -560,6 +582,8 @@ export default function Home() {
             src="/images/Frame 608 (2).svg"
             alt="Product"
             className="w-full h-40 object-contain"
+            width={200}
+            height={200}
           />
           <button
             className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
@@ -587,7 +611,7 @@ export default function Home() {
         </div>
         <div>
           <div>
-          <Image src="/images/Frame 739.svg" alt="New Arrival" width={1400} height={500} className="mt-10 ml-35"/>
+          <Image src="/images/Frame 739.svg" alt="New Arrival" width={1400} height={500} className="mt-10 ml-35" />
           </div>
         </div>
       </section>
