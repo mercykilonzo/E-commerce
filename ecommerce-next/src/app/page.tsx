@@ -2,10 +2,7 @@
 import Footer from "./shared-components/Footer";
 import HeroSection from "./shared-components/Hero";
 import Navigation from "./shared-components/Navigation";
-
-import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Star } from "lucide-react";
 import { MdArrowUpward, MdOutlineStar } from "react-icons/md";
 import { BiHeart } from "react-icons/bi";
 import { FaEye } from "react-icons/fa";
@@ -29,7 +26,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/Frame 611.svg"
               alt="Product"
               className="w-full h-40 object-contain"
@@ -65,7 +62,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/ak-900-01-500x500 1.svg"
               alt="Product"
               className="w-full h-40 object-contain"
@@ -101,7 +98,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/Frame 613.svg"
               alt="Product"
               className="w-full h-40 object-contain"
@@ -136,7 +133,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.svg"
               alt="Product"
               className="w-full h-40 object-contain"
@@ -161,49 +158,12 @@ export default function Home() {
               <span className="text-gray-500 ml-2">(88)</span>
             </div>
           </div>
-
-          {/* <div className="relative group bg-white rounded p-4 shadow w-100">
-            <div className=" flex justify-between items-center">
-              <button className="bg-red-400 text-red-50 text-xs px-2 py-1">-25%</button>
-              <div className="mt-3">
-                <BiHeart />
-                <br />
-                <FaEye />
-              </div>
-            </div>
-            <img
-              src="/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.svg"
-              alt="Product"
-              className="w-full h-40 object-contain"
-            />
-            <button
-              className="absolute left-0 right-0 bottom-[120px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
-            rounded-b-[10px]"
-            >
-              Add To Cart
-            </button>
-            <div className="mt-4">
-              <h4 className="font-bold mt-15">S-Series Comfort Chair </h4>
-              <div>
-                <span className="text-red-500">$375</span>
-                <span className="text-gray-400 line-through ml-2">$400</span>
-              </div>
-            </div>
-            <div className="flex items-center mt-2">
-              {[...Array(4)].map((_, idx) => (
-                <MdOutlineStar key={idx} className="text-yellow-400 text-xl" />
-              ))}
-              <span className="text-gray-500 ml-2">(88)</span>
-            </div>
-          </div> */}
         </div>
         <button className="bg-red-400 py-3 px-7 justify-center mt-10 ml-160 text-white text-sm rounded-[5px] ">View All Products</button>
         <hr className="text-gray-400 mt-15 mx-35" />
       </section>
 
-      {/* Categories */}
-
-      <section>
+            <section>
         <div className="flex justify-between items-center px-35 mt-18 mb-10 ">
           <div>
             <h4 className="text-sm text-red-500 font-semibold">Categories</h4>
@@ -263,7 +223,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/Frame 605.svg"
               alt="Product"
               className="mt-[-40px]"
@@ -291,7 +251,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/Frame 606.svg"
               alt="Product"
               className="mt-[-40px]"
@@ -319,7 +279,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/gammaxx-l240-argb-1-500x500 1.svg"
               alt="Product"
               className="mt-[46px]"
@@ -348,7 +308,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img
+            <Image
               src="/images/Frame 612.svg"
               alt="Product"
               className="mt-[-40px]"
@@ -408,7 +368,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img src="/images/Frame 604.svg" alt="Product" className="mt-[-40px]" />
+            <Image src="/images/Frame 604.svg" alt="Product" className="mt-[-40px]" />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -433,7 +393,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img src="/images/Frame 604 (1).svg" alt="Product" className="mt-[-40px]" />
+            <Image src="/images/Frame 604 (1).svg" alt="Product" className="mt-[-40px]" />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -457,7 +417,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img src="/images/Frame 604 (2).svg" alt="Product" className="mt-[-40px]" />
+            <Image src="/images/Frame 604 (2).svg" alt="Product" className="mt-[-40px]" />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -482,7 +442,7 @@ export default function Home() {
                 <FaEye />
               </div>
             </div>
-            <img src="/images/image.png" alt="Product" className="mt-[-40px]" width={200} />
+            <Image src="/images/image.png" alt="Product" className="mt-[-40px]" width={200} />
             <button
               className="absolute w-50 bottom-[85px] h-12 bg-black text-white font-semibold transition-all duration-300 opacity-0 group-hover:opacity-100
             rounded-b-[10px]">Add To Cart</button>
@@ -510,7 +470,7 @@ export default function Home() {
               <FaEye />
             </div>
           </div>
-          <img
+          <Image
             src="/images/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car 1.svg"
             alt="Product"
             className="w-full h-40 object-contain"
@@ -538,7 +498,7 @@ export default function Home() {
               <FaEye />
             </div>
           </div>
-          <img
+          <Image
             src="/images/Frame 608.svg"
             alt="Product"
             className="w-full h-40 object-contain"
@@ -567,7 +527,7 @@ export default function Home() {
               <FaEye />
             </div>
           </div>
-          <img
+          <Image
             src="/images/Frame 608 (1).svg"
             alt="Product"
             className="w-full h-40 object-contain"
@@ -596,7 +556,7 @@ export default function Home() {
               <FaEye />
             </div>
           </div>
-          <img
+          <Image
             src="/images/Frame 608 (2).svg"
             alt="Product"
             className="w-full h-40 object-contain"
@@ -620,9 +580,6 @@ export default function Home() {
         <hr className="text-gray-400 mt-15 mx-35" />
 
       </section>
-
-      {/* New Arrival */}
-
       <section>
         <div>
           <h4 className="text-sm text-red-500 font-semibold px-35 mt-18">Featured</h4>
@@ -636,7 +593,6 @@ export default function Home() {
       </section>
 
 
-{/* last */}
       <section className="flex gap-40 mx-45 my-20">
         <div className="justify-center items-center">
           <Image src="/images/Services.svg" alt="servives" width={100} height={50}/>

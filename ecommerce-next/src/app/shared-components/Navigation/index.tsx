@@ -12,7 +12,7 @@ const Navigation = () => {
           <li>Home & Lifestyle</li>
           <li>Medicine</li>
           <li>Sports & Outdoor</li>
-          <li>Baby's & Toys </li>
+          <li>Babys & Toys </li>
           <li>Groceries & Pets</li>
           <li>Health & Beauty</li>
         </ul>
