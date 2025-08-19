@@ -12,7 +12,7 @@ import { MdArrowForward, MdArrowBack } from "react-icons/md";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden ">
       <HeroSection />
       <Navigation />
       <section>
@@ -172,7 +172,7 @@ export default function Home() {
       </section>
 
             <section>
-        <div className="flex justify-between items-center px-35 mt-18 mb-10 ">
+        <div className="flex justify-between items-center px-35 mt-18 mb-10 lg:px-30 ">
           <div>
             <h4 className="text-sm text-red-500 font-semibold">Categories</h4>
             <h1 className="font-semibold text-3xl">Browse By Category</h1>
@@ -182,8 +182,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="px-35 flex gap-10 ">
-          <div className="bg-white text-black border-1 w-40 border-gray-400 rounded-lg px-13 py-6 ">
+        <div className="px-35 flex gap-10 lg:gap-5 overflow-x-auto lg:px-30">
+          <div className="bg-white text-black border-1 lg:w-35 w-40 border-gray-400 rounded-lg px-13 py-6 ">
             <Image src="/images/Category-CellPhone.svg" alt="Phone" width={50} height={50} className="mb-5" />
             <p className="text-sm">Phones</p>
           </div>
@@ -208,11 +208,11 @@ export default function Home() {
             <p className="text-sm">Gaming</p>
           </div>
         </div>
-        <hr className="text-gray-400 mt-15 mx-35" />
+        <hr className="text-gray-400 mt-15 lg:mt-20 mx-35 lg:ml-30" />
       </section>
 
       <section>
-        <div className="flex justify-between items-center px-35 mt-18 mb-10">
+        <div className="flex justify-between items-center px-35 mt-18 mb-10 lg:px-30">
           <div>
             <h4 className="text-sm text-red-500 font-semibold">This Month</h4>
             <h1 className="font-semibold text-3xl">Best Selling Products</h1>
@@ -222,7 +222,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex ml-35  pt-10 space-x-6">
+        <div className="flex ml-35  pt-10 space-x-6 lg:ml-25">
           <div className="relative group bg-white rounded p-4 shadow w-100">
             <div className="ml-40 mt-[10px]">
               <div>
@@ -346,7 +346,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="bg-black text-white flex mt-10 ml-35 gap-40 px-10 pt-5 w-300 ">
+        <div className="bg-black text-white flex mt-10 ml-35 gap-40 px-10 pt-5 w-300 lg:ml-25 lg:w-270 lg:h-110 lg:px-20">
           <div>
             <h4 className="text-green-500 pt-10 pb-5 font-bold">Categories</h4>
             <h1 className="text-5xl text-white font-bold">Enhance Your <br /> Music Experience</h1>
@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       <section >
-        <div className="flex justify-between items-center px-35 mt-18 mb-10 ">
+        <div className="flex justify-between items-center px-35 mt-18 mb-10 lg:px-30">
           <div>
             <h4 className="text-sm text-red-500 font-semibold">Categories</h4>
             <h1 className="font-semibold text-3xl">Browse By Category</h1>
@@ -375,7 +375,7 @@ export default function Home() {
             <MdArrowBack className="text-3xl" />   <MdArrowForward className="text-3xl" />
           </div>
         </div>
-        <div className="flex ml-35  pt-10 space-x-6">
+        <div className="flex ml-35  pt-10 space-x-6 lg:ml-25">
           <div className="relative group bg-white rounded p-4 shadow w-100">
             <div className="ml-40 mt-[10px]">
               <div>
@@ -476,7 +476,7 @@ export default function Home() {
           </div>
         </div>
         
-         <div className="flex ml-35  pt-10 space-x-36">
+         <div className="flex ml-35  pt-10 space-x-36 lg:ml-25 lg:space-x-22">
         <div className="relative group bg-white rounded p-4 shadow w-50">
           <div className=" flex justify-between items-center">
             <button className="bg-green-400 text-red-50 text-xs px-2 py-1">NEW</button>
@@ -600,24 +600,24 @@ export default function Home() {
           </div>
         </div>
         </div>
-         <button className="bg-red-400 py-3 px-7 justify-center mt-10 ml-160 text-white text-sm rounded-[5px] ">View All Products</button>
-        <hr className="text-gray-400 mt-15 mx-35" />
+         <button className="bg-red-400 py-3 px-7 justify-center mt-10 ml-160 text-white text-sm rounded-[5px] lg:ml-140 ">View All Products</button>
+        <hr className="text-gray-400 mt-15 mx-35 lg:mx-25" />
 
       </section>
       <section>
         <div>
-          <h4 className="text-sm text-red-500 font-semibold px-35 mt-18">Featured</h4>
-          <h1 className="font-semibold text-3xl px-35">New Arrival</h1>
+          <h4 className="text-sm text-red-500 font-semibold px-35 lg:px-25 mt-18">Featured</h4>
+          <h1 className="font-semibold text-3xl px-35 lg:px-25">New Arrival</h1>
         </div>
         <div>
           <div>
-          <Image src="/images/Frame 739.svg" alt="New Arrival" width={1400} height={500} className="mt-10 ml-35" />
+          <Image src="/images/Frame 739.svg" alt="New Arrival" width={1400} height={500} className="mt-10 ml-35 lg:ml-25 lg:w-260" />
           </div>
         </div>
       </section>
 
 
-      <section className="flex gap-40 mx-45 my-20">
+      <section className="flex gap-40 mx-45 my-20 lg:mx-25">
         <div className="justify-center items-center">
           <Image src="/images/Services.svg" alt="servives" width={100} height={50}/>
           <h2 className="font-bold">FREE AND FAST DELIVERY</h2>

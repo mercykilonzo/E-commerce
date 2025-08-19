@@ -25,7 +25,7 @@ const SignUp = () => {
             <br />
             <button type="button" className="bg-gray-300 text-black p-2 w-full mt-4">Sign Up with Google</button>
             <br /> <br />
-            <p>Already have account? <u>Log in</u></p>
+            <p>Already have account? <u><a href="/login">Log in</a></u></p>
 
           </form>
 
