@@ -23,7 +23,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                     <nav className="flex justify-between items-center space-x-15">
-                        <a href="/">Home</a>
+                        <a href="">Home</a>
                         <a href="">Contact</a>
                         <a href="">About</a>
                         <a href="/signUp">Sign Up</a>
